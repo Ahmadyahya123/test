@@ -1,7 +1,7 @@
 <?php
 include 'functions.php';
 $pdo = pdo_connect_mysql();
-$msg = '';
+$msg = 'message';
 // Check that the contact ID exists
 if (isset($_GET['id'])) {
     // Select the record that is going to be deleted
