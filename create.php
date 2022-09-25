@@ -1,7 +1,7 @@
 <?php
 include 'functions.php';
 $pdo = pdo_connect_mysql();
-$msg = '';
+$msg = ''; 
 // Check if POST data is not empty
 if (!empty($_POST)) {
     // Post data not empty insert a new record
